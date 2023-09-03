@@ -6,7 +6,9 @@
          font-family: 'Lato', sans-serif;
         font-family: 'Open Sans', sans-serif;
         font-family: 'Work Sans', sans-serif;
+    
   }
+ 
   .text-light-gray{
     color: #727272;
   }
@@ -63,8 +65,37 @@
     margin-top:20px;
     width:100%;
   }
+  /* main style */
+  main{
+    max-width:1000px;
+    margin:60px auto;
+  }
+  .teams-container{
+    display: flex;
+    align-items: center;
+  }
+  .teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+  }
+  .teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+.team-title{
+    font-size: 2.8rem;
+}
+.teams-content .quick-list{
+    color:#727272;
+    font-weight: 500;
+}
 
-
+.teams-content .features{
+    color: #FF900E;
+    font-weight: 700;
+}
+ 
 
 
   /* responsive style */
